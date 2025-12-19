@@ -7,7 +7,6 @@
     "test": "jest test/*",
     "lint": "eslint src/*.js",
     "start": "nodemon -r esm src/server.js --ignore database.json",
-    "start:prod": "node -r esm src/server.js"
     "reset": "npx rimraf database.json"
   },
   "author": "",
